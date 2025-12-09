@@ -24,6 +24,7 @@
             </StackPanel>
             <StackPanel VerticalAlignment="Bottom" Orientation="Horizontal" Spacing="12">
                 <Button Content="Open GitHub Issue in browser" Click="IssueLinkButton_Click" />
+                <Button Content="Open repo" Click="RepoLinkButton_Click" />
             </StackPanel>
         </Grid>
     </ScrollViewer>

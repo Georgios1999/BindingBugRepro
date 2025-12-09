@@ -13,9 +13,13 @@ public sealed partial class MainPage : Page
         this.DataContext = Model;
     }
 
-    private void IssueLinkButton_Click(object sender, RoutedEventArgs e)
+    private async void IssueLinkButton_Click(object sender, RoutedEventArgs e)
     {
-        // TODO: Update with issue link after pushing and sending the issue.
-        Launcher.LaunchUriAsync(new Uri("https://www.google.com"));
+        await Launcher.LaunchUriAsync(new Uri("https://github.com/unoplatform/uno/issues/22068"));
+    }
+
+    private async void RepoLinkButton_Click(object sender, RoutedEventArgs e)
+    {
+        await Launcher.LaunchUriAsync(new Uri("https://github.com/Georgios1999/BindingBugRepro.git"));
     }
 }

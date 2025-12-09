@@ -1,3 +1,4 @@
+using Uno.AI.XamlGeneration.Contracts;
 using Uno.Resizetizer;
 
 namespace BidingBugRepro;
